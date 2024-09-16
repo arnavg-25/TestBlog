@@ -1,0 +1,23 @@
+.light-theme{
+    background-color: white;
+}
+.dark-theme{
+    background-color: black;
+    color: white;
+}
+
+.comment{
+    display: flex;
+
+}
+
+.comment-text{
+    margin: 0;
+    cursor: default;
+}
+
+.span{
+    margin-right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}

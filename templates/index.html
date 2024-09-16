@@ -1,0 +1,158 @@
+
+<html>
+    <head>
+        <title>ToDo List</title>
+
+
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+        
+
+
+
+
+    </head>
+
+    <body class="light-theme">
+
+
+
+        <div style="position:sticky; top:0; display: flex; justify-content: space-around; background-color: skyblue;">
+            <img src="https://i.pinimg.com/736x/0d/cf/b5/0dcfb548989afdf22afff75e2a46a508.jpg"
+                width="150px"
+                height="150px"/>
+            <h1 class="boarded-header"> My Blog</h1>
+            <p style="padding: 50px">The finer things in life...</p>
+            <button id="clicker">Toggle Theme</button>
+        </div>
+        
+        <div>
+            <p>Hello! My name is <b>Arnav Garg</b> and <u>today</u> on my blog I will be talking about some of my favorite cusines and then my top
+               five foods from one of those cusines.  </p>
+        </div>
+        
+
+        <div>
+            <h4 class="boarded-header1">My favorite cusines</h4>
+            <ul type="circle" class="blog-list">
+                <li >Italian cusine</li>
+                <li><del>Mexican cusine</del></li>
+                <li>Thai cusine</li>
+                <li>Indian cusine</li>
+                <li>Greek cusine</li>
+            </ul>
+        </div>
+        <div>
+            <h4 >My top five favorite foods from Thai cusines</h4>
+            <ol class="blog-list">
+                <li class=".blog-list"> Gaeng Keow Wan Gai (Green Curry)</li>
+                <li>Pad Thai</li>
+                <li>Chicken Satay</li>
+                <li>Massaman Curry</li>
+                <li>Thai steamed dumplings</li>
+            </ol>
+             <p>The Diversity of Food
+                Every culture has its own unique culinary traditions, from the bold flavors of Indian curries to the delicate artistry of Japanese sushi. Exploring different cuisines allows us to experience the world through taste, texture, and aroma. Whether it’s the comforting warmth of Italian pasta dishes or the spicy kick of Mexican street food, there’s something for everyone to enjoy.
+                
+                The Art of Cooking
+                Cooking is a creative outlet for many, offering endless possibilities to experiment with ingredients, techniques, and presentations. It’s a craft that can be as simple or as complex as you want it to be. From the joy of baking a homemade loaf of bread to the precision required in crafting a gourmet dish, cooking connects us to the roots of tradition and the innovations of modern culinary science.
+                
+                Health and Nutrition
+                Food also plays a critical role in our health and well-being. Eating a balanced diet rich in fruits, vegetables, whole grains, and lean proteins can provide the energy and nutrients needed for a healthy lifestyle. Mindful eating practices encourage us to savor our meals and make choices that nourish both our bodies and minds.
+                
+                The Social Aspect
+                Sharing a meal with others is one of the oldest and most universal ways to build community. Whether it’s a family dinner, a picnic with friends, or a festive holiday feast, food has the power to bring people together, fostering connections and creating memories that last a lifetime.
+                In essence, food is a celebration of life. It’s an expression of culture, creativity, and community, all rolled into one delicious package. So, whether you’re cooking at home, dining out, or exploring new flavors, remember to savor every bite and enjoy the finer things in life.
+            </p>
+        </div>
+        
+
+        <!--<table border="1">
+            <tr>
+                <td>Sport</td>
+                <td>Food</td>
+            </tr>
+            <tr>
+                <td>Playing</td>
+                <td>Eating</td>
+            </tr>
+            
+
+            <form>
+                <label>Username:</label>
+                <input placeholder="Enter your username" type="text"/>
+                <br/><label>Password:</label>
+                <input placeholder="Enter your password" minlength="6" maxlength="12" type="text"/>
+
+            </form>
+            -->
+        
+            
+            <div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+
+
+            <div style="display:flex; flex-direction: column;">
+                <h2 style="text-align: center; margin: 10px;">  About You</h2>
+                <p style="margin: 10px; text-align: center;"><strong>We want to hear from our readers!</strong> Share some information about <em>you</em> below.</p>
+                
+                <form class="about-you">      
+                    <div>
+                        <label>Name:</label>
+                        <input type="text"/>
+                    </div>                   
+                    <div>
+                        <label>Email:</label>
+                        <input placeholder="you@example.com" minlength="6" maxlength="30" type="text"/>
+
+                    </div>                       
+                    <div>
+                        <label>Age: </label>
+                        <input type="number"/>
+                                     
+                </form>
+            </div>
+
+            
+              
+            </div>
+
+
+            <div>
+                <h1 style="text-align: center;">Comments</h1>
+                <div id="comments">
+                    <h4>Leave a comment</h4>
+                    <label>Comment:</label>
+                    <input type="textarea" id="comment-input">
+                    <button id="submit">Submit</button>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        
+        
+        
+        
+        
+        
+        <script src="{{url_for('static' , filename='script.js')}}"></script>
+
+
+
+        
+    </body>
+
+    
+        
+
+
+</html>
+
+
+
+
